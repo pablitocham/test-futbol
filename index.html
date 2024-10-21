@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="stylesheet" href="./index.css">
+    <title>Test Fútbol</title>
+</head>
+
+<body>
+    <header>
+        <h1  class="animate__animated animate__rotateIn">Test Fútbol</h1>
+    </header>
+    <main class="tablero">
+        <div id="tablero">
+            <div id="encabezado">
+                <span id="preguntando"></span>
+                <br>
+                <img src="" alt="" id="imagen">
+            </div>
+            <div id="respuesta-1" onclick="selccionarOpcion (0)" class="respuesta">
+                Respuesta 1
+            </div>
+
+            <div id="respuesta-2" onclick="selccionarOpcion (1)" class="respuesta">
+                Respuesta 2
+            </div>
+
+            <div id="respuesta-3" onclick="selccionarOpcion (2)" class="respuesta">
+                Respuesta 3
+            </div>
+
+            <div id="respuesta-4" onclick="selccionarOpcion (3)" class="respuesta">
+                Respuesta 4
+            </div>
+        </div>
+    </main>
+    <script src="./preguntas.js" defer></script>
+    <script src="./index.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>

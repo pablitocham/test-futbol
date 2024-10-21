@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./img/fondojuego.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 0.25;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 30px;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+.tablero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#encabezado {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    width: 80vw;
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#preguntando {
+    background-color: rgb(8, 8, 238);
+    padding: 5px;
+    border-radius: 50px;
+    margin-top: -48px;
+}
+
+.respuesta {
+    width: 80vw;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.respuesta:hover {
+    background-color: rgb(10, 176, 226);
+}
+
+img {
+    margin-bottom: 50px;
+    height: 100%;
+    object-fit: contain;
+}
+
+@media screen and (min-width: 600px) {
+    .respuesta {
+        width: 50vh;
+        margin: 10px auto;
+    }
+
+    img {
+        margin-bottom: 50px;
+        height: 110%;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .respuesta {
+        width: 60vh;
+    }
+
+    img {
+        margin-bottom: 100px;
+        height: 150%;
+
+    }
+
+}
