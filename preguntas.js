@@ -80,5 +80,13 @@ let preguntas = [
         imagen: "./img/copali.png",
         distractores: ["Boca", "Rosario Central", "Peñarol"]
     },
+    
+    {
+        pregunta: "¿Cuántos Balones de Oro  ganó  Messi ",
+        respuesta: 7,
+        imagen: "./img/balon.png",
+        distractores: [3,6,8,10]
+    },
+
 
 ]
