@@ -85,7 +85,7 @@ let preguntas = [
         pregunta: "¿Cuántos Balones de Oro  ganó  Messi ",
         respuesta: 8,
         imagen: "./img/balon.png",
-        distractores: [7, 8, 10]
+        distractores: [7, 9, 10]
     },
 
 
